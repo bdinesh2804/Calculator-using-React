@@ -42,6 +42,6 @@ A simple, responsive Calculator web app built using **React**, **TypeScript**, *
 ```bash
 npm install
 
--> Start Development Server
+### Start Development Server
 
 npm run dev
