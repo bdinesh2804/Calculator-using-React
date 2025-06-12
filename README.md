@@ -18,13 +18,18 @@ A simple, responsive Calculator web app built using **React**, **TypeScript**, *
 
 ├── public/
 ├── src/
-│ ├── components/
-│ │ └── Calculator.tsx
-│ ├── App.tsx
-│ ├── main.tsx
+│   ├── components/
+│   └── App.tsx, main.tsx, etc.
 ├── index.html
 ├── package.json
-└── README.md
+├── package-lock.json
+├── tsconfig.json
+├── vite.config.ts
+├── tailwind.config.ts
+├── postcss.config.js
+├── .gitignore
+├── README.md
+
 
 
 ## ✨ Features
@@ -42,6 +47,6 @@ A simple, responsive Calculator web app built using **React**, **TypeScript**, *
 ```bash
 npm install
 
-### Start Development Server
+**### Start Development Server**
 
 npm run dev
