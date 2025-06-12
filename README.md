@@ -30,8 +30,6 @@ A simple, responsive Calculator web app built using **React**, **TypeScript**, *
 ├── .gitignore
 ├── README.md
 
-
-
 ## ✨ Features
 
 - Basic arithmetic operations
@@ -47,9 +45,7 @@ A simple, responsive Calculator web app built using **React**, **TypeScript**, *
 ```bash
 npm install
 
-### 🚀 Start Development Server
-
-To run the app in development mode, use the following command:
+**### Install Dependencies**
 
 ```bash
-npm run dev
+npm install
