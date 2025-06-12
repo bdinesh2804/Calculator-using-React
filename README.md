@@ -41,8 +41,9 @@ A simple, responsive Calculator web app built using **React**, **TypeScript**, *
 ## 🧑‍💻 Getting Started
 
 ### Install Dependencies
+To install all required packages, run:
 
-npm install
+**npm install**
 
 ### 🚀 Start Development Server
 
@@ -50,9 +51,3 @@ To run the app in development mode, use the following command:
 
 ```bash
 npm run dev
-
-
-
-
-
-
