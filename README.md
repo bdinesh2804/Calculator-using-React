@@ -4,7 +4,7 @@ A simple, responsive Calculator web app built using **React**, **TypeScript**, *
 
 ## 🚀 Live Demo
 
-👉 https://quickcalculator28.netlify.app/
+👉 https://snapcalcbydinesh.netlify.app/
 
 ## 🛠 Tech Stack
 
