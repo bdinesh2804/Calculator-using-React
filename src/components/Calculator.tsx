@@ -8,12 +8,6 @@ export const Calculator: React.FC = () => {
 
   const buttons = [
     [
-      { label: 'MC', action: calculator.memoryClear, type: 'memory' as const },
-      { label: 'MR', action: calculator.memoryRecall, type: 'memory' as const },
-      { label: 'M+', action: calculator.memoryAdd, type: 'memory' as const },
-      { label: 'M-', action: calculator.memorySubtract, type: 'memory' as const },
-    ],
-    [
       { label: 'AC', action: calculator.clear, type: 'clear' as const },
       { label: 'CE', action: calculator.clearEntry, type: 'function' as const },
       { label: '±', action: calculator.toggleSign, type: 'function' as const },
@@ -70,8 +64,9 @@ export const Calculator: React.FC = () => {
         ))}
       </div>
       
-      <div className="mt-4 text-center text-xs text-gray-500">
-        Use keyboard for input • ESC to clear
+      <div className="mt-4 space-y-1 text-center text-xs text-gray-500">
+        <div>Use keyboard for input • ESC to clear</div>
+        <div className="text-gray-400">- Created by B Dinesh</div>
       </div>
     </div>
   );
